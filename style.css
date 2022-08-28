@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg);
+    min-height: 600px;
+    
+}
+/* styling of header */
+#head{
+    text-align: center;
+    padding: 20px;
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+}
+/* styling of main container */
+#container{
+    margin-top: 16vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+/* this a contanier which is made under main conatiner and styling of it*/
+#con{
+    padding: 20px;
+    border: 1px solid #F2AA4CFF;
+    border-radius: 10px;
+    background: #101820FF;
+    
+    width: 35%;
+    min-height: 300px;
+    
+
+}
+
+
+/* styling of label of input field */
+#bill ,#people,  #option{
+    padding: 20px 5px 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F2AA4CFF;
+    
+    
+}
+/* styling of every input field */
+input{
+    height: 30px;
+    text-align: right;
+    padding: 5px;
+    min-width: 60px;
+    
+}
+
+/* input:hover{
+    background-color: blue;
+} */
+/* styling of calculate button */
+#calculate{
+    margin-top: 3px;
+    width: 100%;
+    padding: 3px 0px 3px 0px;
+    border-radius: 5px;
+}
+/* styling of display which show calculation */
+#display{
+    text-align: center;
+    padding: 10px;
+    background-color: #F2AA4CFF;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;   
+    color: #101820FF;
+}
+
+/* styling of footer */
+#footer{
+    margin-top: 16vh;
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    
+}
+/* Styling print button */
+#print{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#clear{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    
+}
